@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin: 0px 1%;
+    background: #28272C;
+}
+
+.semestre-materias {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-row-gap: 10px;
+}
+
+.semestre h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.semestre span {
+    font-size: 12px;
+}
+
+.semestre a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #FAC96D;
+}
+
+.semestre a:hover {
+    color: white;
+}
+
+.verde-forte {
+    background: #046E1F;
+}
+
+.vermelho-forte {
+    background: #ad0602;
+}
+
+.verde-fraco {
+    background: #32BA07;
+}
+
+.vermelho-fraco {
+    background: #EE4C39;
+}
+
+.normal {
+    background: #F58309
+}
