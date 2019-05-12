@@ -23,72 +23,132 @@
     <div class="semestre">
         <h1>Semestre 2</h1>
         <div class="semestre-materias">
-            <a href="#" id="MATA07" class="normal"><span>MATA07<br></span>Álgebra Linear A</a>
-            <a href="#" id="MATA40" class="normal"><span>MATA40<br></span>Estruturas de Dados e Algorítmos I</a>
-            <a href="#" id="MATA48" class="normal"><span>MATA48<br></span>Arquitetura de Computadores</a>
-            <a href="#" id="MATA57" class="normal"><span>MATA57<br></span>Laboratório de Programação I</a>
-            <a href="#" id="MATA95" class="normal"><span>MATA95<br></span>Complementos de Cálculo</a>
-            <a href="#" id="MATA97" class="normal"><span>MATA97<br></span>Matemática Discreta II</a>
+            <a href="#" id="MATA07" class="normal" data-prerequisites='["MATA01"]'>
+                <span>MATA07<br></span>Álgebra Linear A
+            </a>
+            <a href="#" id="MATA40" class="normal" data-prerequisites='["MATA37","MATA42"]'>
+                <span>MATA40<br></span>Estruturas de Dados e Algorítmos I
+            </a>
+            <a href="#" id="MATA48" class="normal" data-prerequisites='["MATA38"]'>
+                <span>MATA48<br></span>Arquitetura de Computadores
+            </a>
+            <a href="#" id="MATA57" class="normal" data-prerequisites='["MATA37"]'>
+                <span>MATA57<br></span>Laboratório de Programação I
+            </a>
+            <a href="#" id="MATA95" class="normal" data-prerequisites='["MATA01","MATA02"]'>
+                <span>MATA95<br></span>Complementos de Cálculo
+            </a>
+            <a href="#" id="MATA97" class="normal" data-prerequisites='["MATA42"]'>
+                <span>MATA97<br></span>Matemática Discreta II
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 3</h1>
         <div class="semestre-materias">
-            <a href="#" id="FISA75" class="normal"><span>FISA75<br></span>Elementos do Eletromagnetismo e de Circuitos Elétricos</a>
-            <a href="#" id="MAT236" class="normal"><span>MAT236<br></span>Métodos Estatísticos</a>
-            <a href="#" id="MATA47" class="normal"><span>MATA47<br></span>Lógica para Computação</a>
-            <a href="#" id="MATA49" class="normal"><span>MATA49<br></span>Programação de Software Básico</a>
-            <a href="#" id="MATA50" class="normal"><span>MATA50<br></span>Linguagens Formais e Autômatos</a>
-            <a href="#" id="MATA55" class="normal"><span>MATA55<br></span>Programação Orientada à Objetos</a>
+            <a href="#" id="FISA75" class="normal" data-prerequisites='["MATA95"]'>
+                <span>FISA75<br></span>Elementos do Eletromagnetismo e de Circuitos Elétricos
+            </a>
+            <a href="#" id="MAT236" class="normal" data-prerequisites='["MATA42","MATA95"]'>
+                <span>MAT236<br></span>Métodos Estatísticos
+            </a>
+            <a href="#" id="MATA47" class="normal" data-prerequisites='["MATA97"]'>
+                <span>MATA47<br></span>Lógica para Computação
+            </a>
+            <a href="#" id="MATA49" class="normal" data-prerequisites='["MATA40","MATA48","MATA57"]'>
+                <span>MATA49<br></span>Programação de Software Básico
+            </a>
+            <a href="#" id="MATA50" class="normal" data-prerequisites='["MATA42"]'>
+                <span>MATA50<br></span>Linguagens Formais e Autômatos
+            </a>
+            <a href="#" id="MATA55" class="normal" data-prerequisites='["MATA40"]'>
+                <span>MATA55<br></span>Programação Orientada à Objetos
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 4</h1>
         <div class="semestre-materias">
-            <a href="#" id="FCHC45" class="normal"><span>FCHC45<br></span>Metodologia e Expressão Técnico-Científica</a>
-            <a href="#" id="MATA51" class="normal"><span>MATA51<br></span>Teoria da Computação</a>
-            <a href="#" id="MATA52" class="normal"><span>MATA52<br></span>Análise e Projeto de Algorítmos</a>
-            <a href="#" id="MATA58" class="normal"><span>MATA58<br></span>Sistemas Operacionais I</a>
-            <a href="#" id="MATA61" class="normal"><span>MATA61<br></span>Compiladores</a>
-            <a href="#" id="MATA68" class="normal"><span>MATA68<br></span>Computador, Ética e Sociedade</a>
+            <a href="#" id="FCHC45" class="normal">
+                <span>FCHC45<br></span>Metodologia e Expressão Técnico-Científica
+            </a>
+            <a href="#" id="MATA51" class="normal" data-prerequisites='["MATA47","MATA50"]'>
+                <span>MATA51<br></span>Teoria da Computação
+            </a>
+            <a href="#" id="MATA52" class="normal" data-prerequisites='["MATA40"]'>
+                <span>MATA52<br></span>Análise e Projeto de Algorítmos
+            </a>
+            <a href="#" id="MATA58" class="normal" data-prerequisites='["MATA49"]'>
+                <span>MATA58<br></span>Sistemas Operacionais I
+            </a>
+            <a href="#" id="MATA61" class="normal" data-prerequisites='["MATA49","MATA50"]'>
+                <span>MATA61<br></span>Compiladores
+            </a>
+            <a href="#" id="MATA68" class="normal">
+                <span>MATA68<br></span>Computador, Ética e Sociedade
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 5</h1>
         <div class="semestre-materias">
-            <a href="#" id="MATA53" class="normal"><span>MATA53<br></span>Teoria dos Grafos</a>
-            <a href="#" id="MATA54" class="normal"><span>MATA54<br></span>Estruturas de Dados e Algorítmos II</a>
-            <a href="#" id="MATA59" class="normal"><span>MATA59<br></span>Redes de Computadores I</a>
-            <a href="#" id="MATA62" class="normal"><span>MATA62<br></span>Engenharia de Software I</a>
-            <a href="#" id="MATE12" class="normal"><span>MATE12<br></span>Paradigmas de Linguagens de Programação A</a>
+            <a href="#" id="MATA53" class="normal" data-prerequisites='["MATA52"]'>
+                <span>MATA53<br></span>Teoria dos Grafos
+            </a>
+            <a href="#" id="MATA54" class="normal" data-prerequisites='["MATA52"]'>
+                <span>MATA54<br></span>Estruturas de Dados e Algorítmos II
+            </a>
+            <a href="#" id="MATA59" class="normal" data-prerequisites='["MATA49"]'>
+                <span>MATA59<br></span>Redes de Computadores I
+            </a>
+            <a href="#" id="MATA62" class="normal" data-prerequisites='["MATA55"]'>
+                <span>MATA62<br></span>Engenharia de Software I
+            </a>
+            <a href="#" id="MATE12" class="normal" data-prerequisites='["MATA55"]'>
+                <span>MATE12<br></span>Paradigmas de Linguagens de Programação A
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 6</h1>
         <div class="semestre-materias">
-            <a href="#" id="MATA60" class="normal"><span>MATA60<br></span>Banco de Dados</a>
-            <a href="#" id="MATA64" class="normal"><span>MATA64<br></span>Inteligência Artifical</a>
-            <a href="#" id="MATA65" class="normal"><span>MATA65<br></span>Computação Gráfica</a>
-            <a href="#" id="MATA88" class="normal"><span>MATA88<br></span>Fundamentos de Sistemas Distribuídos</a>
-            <a href="#" id="MATE11" class="normal"><span>MATE11<br></span>Engenharia de Software II-A</a>
+            <a href="#" id="MATA60" class="normal" data-prerequisites='["MATA54"]'>
+                <span>MATA60<br></span>Banco de Dados
+            </a>
+            <a href="#" id="MATA64" class="normal" data-prerequisites='["MATA47","MATA53","MATE12"]'>
+                <span>MATA64<br></span>Inteligência Artifical
+            </a>
+            <a href="#" id="MATA65" class="normal" data-prerequisites='["MATA07","MATA57","MATA95"]'>
+                <span>MATA65<br></span>Computação Gráfica
+            </a>
+            <a href="#" id="MATA88" class="normal" data-prerequisites='["MATA58","MATA59"]'>
+                <span>MATA88<br></span>Fundamentos de Sistemas Distribuídos
+            </a>
+            <a href="#" id="MATE11" class="normal" data-prerequisites='["MATA62"]'>
+                <span>MATE11<br></span>Engenharia de Software II-A
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 7</h1>
         <div class="semestre-materias">
-            <a href="#" id="MATA66" class="normal"><span>MATA66<br></span>Projeto Final de Curso I</a>
+            <a href="#" id="MATA66" class="normal" data-prerequisites='["FCHC45"]'>
+                <span>MATA66<br></span>Projeto Final de Curso I
+            </a>
         </div>
     </div>
 
     <div class="semestre">
         <h1>Semestre 8</h1>
         <div class="semestre-materias">
-            <a href="#" id="MATA67" class="normal"><span>MATA67<br></span>Projeto Final de Curso II</a>
+            <a href="#" id="MATA67" class="normal" data-prerequisites='["MATA66"]'>
+                <span>MATA67<br></span>Projeto Final de Curso II
+            </a>
         </div>
     </div>
     <script src="app.js" charset="utf-8"></script>
