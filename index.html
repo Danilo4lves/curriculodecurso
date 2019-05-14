@@ -11,42 +11,47 @@
     <div class="semestre">
         <h1>Semestre 1</h1>
         <div class="semestre-materias">
-            <div id="MATA01" class="normal" data-bloqueia='["MATA07","MATA95","FISA75","MAT236","MATA65"]' data-desbloqueia='["MATA07"]'>
+            <div id="MATA01" class="normal" data-bloqueia='["MATA07","MATA95","FISA75","MAT236","MATA65"]' data-desbloqueia='["MATA07"]'
+            data-prerequisites='[""]'>
                 <a href="#"><span>MATA01<br></span>Geometria Analítica</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA01')">PASSEI!</p>
                     <p id="perdi-button" onclick="clickPerdi('MATA01')">PERDI!</p>
                 </div>
             </div>
-            <div id="MATA02" class="normal" data-bloqueia='["MATA95","FISA75","MAT236","MATA65"]' data-desbloqueia='[""]'>
+            <div id="MATA02" class="normal" data-bloqueia='["MATA95","FISA75","MAT236","MATA65"]' data-desbloqueia='[""]'
+            data-prerequisites='[""]'>
                 <a href="#"><span>MATA02<br></span>Cálculo A</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA02')">PASSEI!</p>
                     <p id="perdi-button" onclick="clickPerdi('MATA02')">PERDI!</p>
                 </div>
             </div>
-            <div id="MATA37" class="normal" data-bloqueia='["MATA40","MATA55","MATA62","MATE11","MATE12","MATA64","MATA57","MATA49","MATA58","MATA88","MATA59","MATA65"]'>
+            <div id="MATA37" class="normal" data-desbloqueia='["MATA57"]' data-prerequisites='[""]'
+            data-bloqueia='["MATA40","MATA55","MATA62","MATE11","MATE12","MATA64","MATA57","MATA49","MATA58","MATA88","MATA59","MATA65"]'>
                 <a href="#"><span>MATA37<br></span>Introdução à Lógica de Programação</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA37')">PASSEI!</p>
                     <p id="perdi-button" onclick="clickPerdi('MATA37')">PERDI!</p>
                 </div>
             </div>
-            <div id="MATA38" class="normal" data-bloqueia='[""]'>
+            <div id="MATA38" class="normal" data-bloqueia='["MATA48","MATA49","MATA58","MATA88","MATA61","MATA59"]' data-desbloqueia='["MATA48"]'
+            data-prerequisites='[""]'>
                 <a href="#"><span>MATA38<br></span>Projeto de Circuitos Lógicos</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA38')">PASSEI!</p>
                     <p id="perdi-button" onclick="clickPerdi('MATA38')">PERDI!</p>
                 </div>
             </div>
-            <div id="MATA39" class="normal">
+            <div id="MATA39" class="normal" data-bloqueia='[""]' data-desbloqueia='[""]' data-prerequisites='[""]'>
                 <a href="#"><span>MATA39<br></span>Seminários de Introdução ao Curso</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA39')">PASSEI!</p>
                     <p id="perdi-button" onclick="clickPerdi('MATA39')">PERDI!</p>
                 </div>
             </div>
-            <div id="MATA42" class="normal">
+            <div id="MATA42" class="normal" data-desbloqueia='["MATA97","MATA50"]' data-prerequisites='[""]'
+            data-bloqueia='["MATA97","MATA47","MATA51","MAT236","MATA50","MATA61","MATA40","MATA55","MATE12","MATA64","MATA62","MATE11","MATA52","MATA54","MATA60","MATA53"]'>
                 <a href="#"><span>MATA42<br></span>Matemática Discreta I</a>
                 <div id="materia-buttons">
                     <p id="passei-button" onclick="clickPassei('MATA42')">PASSEI!</p>
