@@ -28,36 +28,125 @@ body {
     font-size: 12px;
 }
 
-.semestre a {
-    text-decoration: none;
-    color: black;
+#materiass {
     font-weight: bold;
     text-align: center;
     height: 92px;
     border-radius: 2px;
     box-shadow: 1px 1px 1px #FAC96D;
+    position: relative;
 }
 
-.semestre a:hover {
-    color: white;
+#materia-buttons {
+    display: flex;
+    position: absolute;
+    bottom: 3px;
+    margin-left: 10px;
 }
+
+#passei-button {
+    background: #046E1F;
+    width: 70px;
+}
+
+#passei-button:hover {
+    background: #32BA07;
+    cursor: pointer;
+}
+
+#perdi-button {
+    background: #ad0602;
+    width: 70px;
+}
+
+#perdi-button:hover {
+    background: #EE4C39;
+    cursor: pointer;
+}
+
 
 .verde-forte {
     background: #046E1F;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.verde-forte a {
+    text-decoration: none;
+    color: black;
+}
+.verde-forte a:hover {
+    color: white;
 }
 
 .vermelho-forte {
     background: #ad0602;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.vermelho-forte a {
+    text-decoration: none;
+    color: black;
+}
+
+.vermelho-forte a:hover {
+    color: white;
 }
 
 .verde-fraco {
     background: #32BA07;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.verde-fraco a {
+    text-decoration: none;
+    color: black;
+}
+.verde-fraco a:hover {
+    color: white;
 }
 
 .vermelho-fraco {
     background: #EE4C39;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.vermelho-fraco a {
+    text-decoration: none;
+    color: black;
+}
+.vermelho-fraco a:hover {
+    color: white;
 }
 
 .normal {
-    background: #F58309
+    background: #F58309;
+    font-weight: bold;
+    text-align: center;
+    height: 92px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.normal a {
+    text-decoration: none;
+    color: black;
+}
+.normal a:hover {
+    color: white;
 }
