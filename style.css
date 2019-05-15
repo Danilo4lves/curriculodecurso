@@ -66,7 +66,8 @@ body {
 
 
 .verde-forte {
-    background: #046E1F;
+    /*background: #046E1F;*/
+    background: #3F874E;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -83,7 +84,8 @@ body {
 }
 
 .vermelho-forte {
-    background: #ad0602;
+/*    background: #ad0602;*/
+    background: #B40000;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -101,7 +103,8 @@ body {
 }
 
 .verde-fraco {
-    background: #32BA07;
+/*    background: #32BA07;*/
+    background: #98C376;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -118,7 +121,8 @@ body {
 }
 
 .vermelho-fraco {
-    background: #EE4C39;
+/*    background: #EE4C39;*/
+    background: #F61F1F;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -135,7 +139,8 @@ body {
 }
 
 .normal {
-    background: #F58309;
+    /*--background: #F58309;*/
+    background: #98BFF7;
     font-weight: bold;
     text-align: center;
     height: 92px;
