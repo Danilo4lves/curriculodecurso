@@ -28,15 +28,6 @@ body {
     font-size: 12px;
 }
 
-#materiass {
-    font-weight: bold;
-    text-align: center;
-    height: 92px;
-    border-radius: 2px;
-    box-shadow: 1px 1px 1px #FAC96D;
-    position: relative;
-}
-
 #materia-buttons {
     display: flex;
     position: absolute;
@@ -146,6 +137,7 @@ body {
     height: 92px;
     border-radius: 2px;
     position: relative;
+    width: 160px;
 }
 
 .normal a {

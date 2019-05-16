@@ -25,11 +25,9 @@ function clickPassei(materia){
                 if (!(materiasNormal.find(element => element === materiaRequisito[i]))){
                     if (document.getElementById(materiaRequisito[i]).className === "vermelho-forte" ||
                     document.getElementById(materiaRequisito[i]).className === "vermelho-fraco"){
-                        console.log(`${materiasNormal[e]}: ${materiaRequisito[i]}`)
                         document.getElementById(materiasNormal[e]).className = "vermelho-fraco"
                         break
                     } else {
-                        console.log(`${materiasNormal[e]}::: ${materiaRequisito[i]}`)
                         document.getElementById(materiasNormal[e]).className = "normal"
                     }
                 }
