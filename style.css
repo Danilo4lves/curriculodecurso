@@ -67,12 +67,12 @@ body {
     width: 160px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 100%;
 }
 
 .verde-forte a {
     text-decoration: none;
     color: black;
+    font-size: 100%;
 }
 
 .verde-forte a:hover {
@@ -90,12 +90,12 @@ body {
     width: 160px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 100%;
 }
 
 .vermelho-forte a {
     text-decoration: none;
     color: black;
+    font-size: 100%;
 }
 
 .vermelho-forte a:hover {
@@ -113,12 +113,12 @@ body {
     width: 160px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 100%;
 }
 
 .verde-fraco a {
     text-decoration: none;
     color: black;
+    font-size: 100%;
 }
 
 .verde-fraco a:hover {
@@ -136,12 +136,12 @@ body {
     width: 160px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 100%;
 }
 
 .vermelho-fraco a {
     text-decoration: none;
     color: black;
+    font-size: 100%;
 }
 .vermelho-fraco a:hover {
     color: white;
@@ -158,12 +158,12 @@ body {
     width: 160px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-size: 100%;
 }
 
 .normal a {
     text-decoration: none;
     color: black;
+    font-size: 100%;
 }
 .normal a:hover {
     color: white;
