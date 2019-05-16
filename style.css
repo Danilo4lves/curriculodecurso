@@ -65,12 +65,15 @@ body {
     border-radius: 2px;
     position: relative;
     width: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .verde-forte a {
     text-decoration: none;
     color: black;
 }
+
 .verde-forte a:hover {
     color: white;
 }
@@ -84,6 +87,8 @@ body {
     border-radius: 2px;
     position: relative;
     width: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .vermelho-forte a {
@@ -104,12 +109,15 @@ body {
     border-radius: 2px;
     position: relative;
     width: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .verde-fraco a {
     text-decoration: none;
     color: black;
 }
+
 .verde-fraco a:hover {
     color: white;
 }
@@ -123,6 +131,8 @@ body {
     border-radius: 2px;
     position: relative;
     width: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .vermelho-fraco a {
@@ -142,6 +152,8 @@ body {
     border-radius: 2px;
     position: relative;
     width: 160px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .normal a {
