@@ -42,8 +42,7 @@ function clickPassei(materia){
         let contarPassados = 0 
 
         for (let i in materiaRequisito){
-            if (document.getElementById(materiaRequisito[i]).className === "verde-forte" ||
-            document.getElementById(materiaRequisito[i]).className === "verde-fraco"){
+            if (document.getElementById(materiaRequisito[i]).className === "verde-forte"){
                 console.log(contarPassados)
                 contarPassados++
             }
@@ -52,8 +51,6 @@ function clickPassei(materia){
         if (contarPassados == materiaRequisito.length) {
             document.getElementById(materiasNormal[e]).className = "verde-fraco"
         }
-
-        console.log(`${contarPassados} : ${materiaRequisito.length}`)
     }
 }
 
