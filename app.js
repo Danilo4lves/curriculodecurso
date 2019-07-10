@@ -3,6 +3,14 @@ function clickPassei(materia){
     
     // Verde forte
     this.materia.className = "verde-forte"
+    // Transformar para verde forte os pré-requisitos desta matéria
+    let materiasDesbloqueio1 = JSON.parse(document.getElementById(materia).dataset.prerequisites)
+    for (let i in materiasDesbloqueio1) {
+        if (materiasDesbloqueio1[i] != ""){
+            document.getElementById(materiasDesbloqueio1[i]).className = "verde-forte"
+        }
+    }
+
 
     // Verde fraco
     let materiasDesbloqueio = JSON.parse(this.materia.dataset.desbloqueia)
@@ -36,12 +44,11 @@ function clickPassei(materia){
         
         /* Checar se existem matérias com todos pré-requisitos preenchidos.
            A variável contarPassados contará quais matérias pré-requisitos já estão passadas.
-           Se todas estiverem, a matéria que contem esses pré-requisitos será liberada. */
+           Se todas estiverem, a matéria que contêm esses pré-requisitos será liberada. */
         let contarPassados = 0 
 
         for (let i in materiaRequisito){
             if (document.getElementById(materiaRequisito[i]).className === "verde-forte"){
-                console.log(contarPassados)
                 contarPassados++
             }
         }
