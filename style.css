@@ -36,7 +36,7 @@ body {
 }
 
 #passei-button {
-    background: #046E1F;
+    background: #82C682;
     width: 70px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 #perdi-button {
-    background: #ad0602;
+    background: #BD526C;
     width: 70px;
 }
 
@@ -81,7 +81,8 @@ body {
 
 .vermelho-forte {
 /*    background: #ad0602;*/
-    background: #B40000;
+    /*background: #B40000;*/
+    background: #BD526C;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -127,7 +128,8 @@ body {
 
 .vermelho-fraco {
 /*    background: #EE4C39;*/
-    background: #F61F1F;
+    /*background: #F61F1F;*/
+    background: #F77F9B;
     font-weight: bold;
     text-align: center;
     height: 92px;
@@ -149,7 +151,8 @@ body {
 
 .normal {
     /*--background: #F58309;*/
-    background: #98BFF7;
+    /*--background: #98BFF7;*/
+    background: #616469;
     font-weight: bold;
     text-align: center;
     height: 92px;
